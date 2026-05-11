@@ -15,6 +15,12 @@
     "ru": "Я нашёл Тедди Беар на парковке, он плакал. Охранник показал на него: один, голодный, бродил вокруг. Я не мог оставить его там. Он пришёл домой и больше не оглядывался. У него те же глаза и шерсть, что и у остальных, поэтому я почти уверен: он из предыдущего помёта той же мамы. Все четверо — братья."
   },
   "adopted": false,
-  "photos": [],
+  "photos": [
+    "/cats/teddy-bear/Teddybear1.jpeg",
+    "/cats/teddy-bear/Teddybear2.jpeg",
+    "/cats/teddy-bear/Teddybear3.jpeg",
+    "/cats/teddy-bear/Teddybear4.jpeg",
+    "/cats/teddy-bear/Teddybaby.jpeg"
+  ],
   "video_url": ""
 }

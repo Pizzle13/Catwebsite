@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import CatCard from '@/components/CatCard'
 import CatModal from '@/components/CatModal'
+import GroupCarousel from '@/components/GroupCarousel'
 import { useI18n } from '@/lib/i18n'
 import type { Cat } from '@/lib/cats-types'
 
@@ -52,13 +53,7 @@ export default function HomeContent({ cats }: Props) {
             </div>
           </div>
 
-          {/* Hero photo placeholder */}
-          <div className="hero-photo">
-            <div className="w-full h-full flex items-center justify-center text-ink-mute/20 flex-col gap-3">
-              <span className="text-7xl">🐾</span>
-              <span className="mono text-xs tracking-widest uppercase text-ink-mute/40">Add a group photo</span>
-            </div>
-          </div>
+          <GroupCarousel />
         </div>
       </header>
 

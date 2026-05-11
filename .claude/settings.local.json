@@ -31,7 +31,12 @@
       "Bash(security find-internet-password *)",
       "Bash(curl -s https://api.github.com/repos/Pizzle13/Catwebsite)",
       "Bash(curl -s https://api.github.com/repos/Pizzle13/Catwebsite/contents)",
-      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\([f['name'] for f in data] if isinstance\\(data, list\\) else data\\)\")"
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\([f['name'] for f in data] if isinstance\\(data, list\\) else data\\)\")",
+      "Bash(cp \"/Users/jp/Website/pics/Teddy Bear/\"* /Users/jp/Website/public/cats/teddy-bear/)",
+      "Bash(cp /Users/jp/Website/pics/Meatball/* /Users/jp/Website/public/cats/meatball/)",
+      "Bash(cp /Users/jp/Website/pics/Nuts/* /Users/jp/Website/public/cats/nuts/)",
+      "Bash(cp /Users/jp/Website/pics/Bolts/* /Users/jp/Website/public/cats/bolts/)",
+      "Bash(cp /Users/jp/Website/pics/group-*.jpeg /Users/jp/Website/public/cats/group/)"
     ]
   }
 }

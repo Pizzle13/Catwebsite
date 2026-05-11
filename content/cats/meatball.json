@@ -15,6 +15,12 @@
     "ru": "Митболл родился в доме, через пятнадцать минут после того, как его мама вошла в мою дверь. Он никогда не знал холодной ночи."
   },
   "adopted": false,
-  "photos": [],
+  "photos": [
+    "/cats/meatball/Meatball1.jpeg",
+    "/cats/meatball/Meatball2.jpeg",
+    "/cats/meatball/Meatball3.jpeg",
+    "/cats/meatball/Meatball4.jpeg",
+    "/cats/meatball/Meatballbaby.jpeg"
+  ],
   "video_url": ""
 }
