@@ -1,0 +1,20 @@
+{
+  "name": { "en": "Bolts", "ru": "Болтс" },
+  "ageMonths": 12,
+  "sex": { "en": "Male, Neutered", "ru": "Самец, Кастрирован" },
+  "tagline": {
+    "en": "All gas, no brakes, until naptime.",
+    "ru": "Полный газ, без тормозов, до тихого часа."
+  },
+  "bio": {
+    "en": "The zoomer. Sprints, leaps, and somehow always lands on his feet. Then collapses in a sunbeam for hours.",
+    "ru": "Гонщик. Прыжки, забеги, и всегда приземляется на лапы. А потом часами тает в солнечном пятне."
+  },
+  "story": {
+    "en": "Bolts and Nuts are littermates and opposite numbers: bonded but distinct. They'd love to stay together, but it isn't required.",
+    "ru": "Болтс и Натс из одного помёта, противоположности: связаны, но каждый сам по себе. Хотелось бы их вместе, но необязательно."
+  },
+  "adopted": false,
+  "photos": [],
+  "video_url": ""
+}

@@ -1,0 +1,20 @@
+{
+  "name": { "en": "Nuts", "ru": "Натс" },
+  "ageMonths": 12,
+  "sex": { "en": "Male, Neutered", "ru": "Самец, Кастрирован" },
+  "tagline": {
+    "en": "Curious about absolutely everything.",
+    "ru": "Любопытен абсолютно ко всему."
+  },
+  "bio": {
+    "en": "If a drawer opens, he's in it. If a bag rustles, he's on it. Playful, clever, and looking for someone to keep up.",
+    "ru": "Открылся ящик — он внутри. Шуршит пакет — он на нём. Игривый, сообразительный, ищет того, кто за ним угонится."
+  },
+  "story": {
+    "en": "Born to the stray who'd been sleeping in my stairwell. Nuts came out of the gate already half a personality. He and Bolts are littermates — bonded, but they don't need to stay together.",
+    "ru": "Родился у уличной кошки, что ночевала на моей лестнице. Натс с самого первого дня уже был половинкой характера. Он и Болтс из одного помёта — связаны, но необязательно оставаться вместе."
+  },
+  "adopted": false,
+  "photos": [],
+  "video_url": ""
+}

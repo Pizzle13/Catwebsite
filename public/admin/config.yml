@@ -1,0 +1,89 @@
+backend:
+  name: github
+  repo: Pizzle13/pinspots.co
+  branch: main
+  base_url: https://pinspots.co
+  auth_endpoint: api/auth
+
+media_folder: public/cats
+public_folder: /cats
+
+collections:
+  - name: cats
+    label: Cats
+    label_singular: Cat
+    folder: content/cats
+    format: json
+    create: true
+    identifier_field: name/en
+    fields:
+      - label: Name (English)
+        name: name/en
+        widget: string
+
+      - label: Name (Russian)
+        name: name/ru
+        widget: string
+
+      - label: Age (months)
+        name: ageMonths
+        widget: number
+        hint: "e.g. 12 = 1 year, 15 = 1 year 3 months"
+
+      - label: Sex (English)
+        name: sex/en
+        widget: string
+        default: "Male, Neutered"
+
+      - label: Sex (Russian)
+        name: sex/ru
+        widget: string
+        default: "Самец, Кастрирован"
+
+      - label: One-line tagline (English)
+        name: tagline/en
+        widget: string
+        hint: "Short, punchy — shown in the profile card"
+
+      - label: One-line tagline (Russian)
+        name: tagline/ru
+        widget: string
+
+      - label: Short bio (English)
+        name: bio/en
+        widget: text
+        hint: "2-3 sentences shown on the cat card"
+
+      - label: Short bio (Russian)
+        name: bio/ru
+        widget: text
+
+      - label: Full story (English)
+        name: story/en
+        widget: text
+        hint: "Shown in the full profile panel"
+
+      - label: Full story (Russian)
+        name: story/ru
+        widget: text
+
+      - label: Mark as Adopted
+        name: adopted
+        widget: boolean
+        default: false
+        hint: "Tick this when the cat has found a home"
+
+      - label: Photos
+        name: photos
+        widget: list
+        field:
+          label: Photo
+          name: photo
+          widget: image
+        hint: "Upload photos — first photo is the main one shown on cards"
+
+      - label: Video URL
+        name: video_url
+        widget: string
+        required: false
+        hint: "YouTube or Google Drive link (optional)"

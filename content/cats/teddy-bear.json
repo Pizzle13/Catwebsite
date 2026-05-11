@@ -1,0 +1,20 @@
+{
+  "name": { "en": "Teddy Bear", "ru": "Тедди Беар" },
+  "ageMonths": 15,
+  "sex": { "en": "Male, Neutered", "ru": "Самец, Кастрирован" },
+  "tagline": {
+    "en": "The one who cried in the parking lot.",
+    "ru": "Тот, что плакал на парковке."
+  },
+  "bio": {
+    "en": "A soft, gentle soul who found me first. Loves a warm lap and follows you from room to room.",
+    "ru": "Нежная, ласковая душа, которая сама меня нашла. Любит тёплые колени и ходит за тобой по пятам."
+  },
+  "story": {
+    "en": "I found Teddy Bear in the parking lot, crying. The security guard pointed him out, alone, just walking around, hungry. I couldn't leave him there. He came home and never looked back. He has the same eyes and fur as the others, so I'm almost sure he's from his mom's previous litter. All four are brothers.",
+    "ru": "Я нашёл Тедди Беар на парковке, он плакал. Охранник показал на него: один, голодный, бродил вокруг. Я не мог оставить его там. Он пришёл домой и больше не оглядывался. У него те же глаза и шерсть, что и у остальных, поэтому я почти уверен: он из предыдущего помёта той же мамы. Все четверо — братья."
+  },
+  "adopted": false,
+  "photos": [],
+  "video_url": ""
+}
