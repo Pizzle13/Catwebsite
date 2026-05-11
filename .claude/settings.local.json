@@ -28,7 +28,10 @@
       "Bash(git remote *)",
       "Bash(git push *)",
       "Bash(gh auth *)",
-      "Bash(security find-internet-password *)"
+      "Bash(security find-internet-password *)",
+      "Bash(curl -s https://api.github.com/repos/Pizzle13/Catwebsite)",
+      "Bash(curl -s https://api.github.com/repos/Pizzle13/Catwebsite/contents)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\([f['name'] for f in data] if isinstance\\(data, list\\) else data\\)\")"
     ]
   }
 }
