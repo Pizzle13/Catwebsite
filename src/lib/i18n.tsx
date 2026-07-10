@@ -13,13 +13,13 @@ interface I18nContextType {
 }
 
 const I18nContext = createContext<I18nContextType>({
-  lang: 'en',
-  t: en,
+  lang: 'ru',
+  t: ru,
   setLang: () => {},
 })
 
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>('en')
+  const [lang, setLang] = useState<Lang>('ru')
   const t = lang === 'en' ? en : ru
   return (
     <I18nContext.Provider value={{ lang, t, setLang }}>

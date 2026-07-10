@@ -2,6 +2,28 @@
 
 import { useI18n } from '@/lib/i18n'
 
+function FlagGB() {
+  return (
+    <svg viewBox="0 0 60 36" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+      <rect width="60" height="36" fill="#00247d" />
+      <path d="M0,0 L60,36 M60,0 L0,36" stroke="#fff" strokeWidth="8" />
+      <path d="M0,0 L60,36 M60,0 L0,36" stroke="#cf142b" strokeWidth="4" />
+      <path d="M30,0 V36 M0,18 H60" stroke="#fff" strokeWidth="12" />
+      <path d="M30,0 V36 M0,18 H60" stroke="#cf142b" strokeWidth="6" />
+    </svg>
+  )
+}
+
+function FlagRU() {
+  return (
+    <svg viewBox="0 0 60 36" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+      <rect width="60" height="12" fill="#fff" />
+      <rect y="12" width="60" height="12" fill="#0039a6" />
+      <rect y="24" width="60" height="12" fill="#d52b1e" />
+    </svg>
+  )
+}
+
 export default function Header() {
   const { lang, setLang, t } = useI18n()
 
@@ -27,8 +49,22 @@ export default function Header() {
           <a href="/#contact">{t.nav.contact}</a>
         </div>
         <div className="lang-toggle">
-          <button className={lang === 'en' ? 'on' : ''} onClick={() => setLang('en')}>EN</button>
-          <button className={lang === 'ru' ? 'on' : ''} onClick={() => setLang('ru')}>RU</button>
+          <button
+            className={lang === 'en' ? 'on' : ''}
+            onClick={() => setLang('en')}
+            aria-label="English"
+            title="English"
+          >
+            <FlagGB />
+          </button>
+          <button
+            className={lang === 'ru' ? 'on' : ''}
+            onClick={() => setLang('ru')}
+            aria-label="Русский"
+            title="Русский"
+          >
+            <FlagRU />
+          </button>
         </div>
       </div>
     </nav>
